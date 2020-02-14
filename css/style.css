@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,600i,700,700i,800,800i,900|Petit+Formal+Script&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,600i,700,700i,800,800i,900|Petit+Formal+Script&display=swap");
+
+@font-face {
+  font-family: "Boheme";
+  src: url(/fonts/Boheme\ Floral.ttf)
+}
+@font-face {
+  font-family: "Bodoni72";
+  src: url(/fonts/Bodoni\ 72.ttc)
+}
 /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_extend.scss */
 .flex-center-start {
   display: -webkit-box;
@@ -983,7 +992,11 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_bg_1 {
+<<<<<<< HEAD
   /* background-image: url(../img/banner/banner.png); */
+=======
+  background-image: url(../img/giulia/banner2.png);
+>>>>>>> stash
 }
 
 /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
@@ -1404,6 +1417,7 @@ h3 {
 .attending_area {
   padding-top: 95px;
   padding-bottom: 280px;
+  margin-bottom: 800px;
 }
 
 /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_attending.scss */
@@ -1782,6 +1796,14 @@ h3 {
   display: none;
 }
 
+.eolie {
+  background-image: url(../img/eolie.jpg);
+}
+
+.argentina {
+  background-image: url(../img/argentina.jpg);
+}
+
 /* line 37, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_1 {
   background-image: url(../img/gallery/1.png);
@@ -1844,6 +1866,28 @@ h3 {
 .gallery_area .single_gallery {
   height: 410px;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery_area_info {
+
+}
+
+.gallery_area_info .single_gallery_eolie {
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery_area_info .single_gallery_argentina {
+  height: 300px;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
   overflow: hidden;
