@@ -1862,6 +1862,10 @@ h3 {
   font-family: "Muli", sans-serif;
 }
 
+.love_story_area p {
+  font-family: "Muli", sans-serif;
+}
+
 /* line 104, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .weding_time_line .single_time_line:nth-child(4)::before {
   display: none;
@@ -1913,6 +1917,10 @@ h3 {
 /* line 58, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_8 {
   background-image: url(../img/giulia/foto/08.png);
+}
+
+.gallery_imag_9 {
+  background-image: url(../img/giulia/foto/09.png);
 }
 
 
